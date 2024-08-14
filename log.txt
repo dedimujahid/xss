@@ -1,0 +1,4 @@
+[2024-08-14T08:23:25.695Z] INFO: Server started
+[2024-08-14T08:30:17.756Z] INFO: Server started
+[2024-08-14T08:36:24.381Z] INFO: Cookie data received: test-cookie
+[2024-08-14T08:36:24.388Z] INFO: Cookie berhasil disimpan.

